@@ -10,7 +10,7 @@ uis:
   - name: doughnutchart
 dependencies:
   packages:        
-    - name: angular_chart
+    - name: angles/Chart.js/Chart
     - name: angular/angular
 actions:
   javascript:
