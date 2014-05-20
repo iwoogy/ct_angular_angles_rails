@@ -1,0 +1,19 @@
+---
+module:
+  name: "angles"
+uis:
+  - name: linechart
+  - name: barchart
+  - name: radarchart
+  - name: polarchart
+  - name: piechart
+  - name: doughnutchart
+dependencies:
+  packages:        
+    - name: angular_chart
+    - name: angular/angular
+actions:
+  javascript:
+    include?: true
+  module:
+    include?: true
